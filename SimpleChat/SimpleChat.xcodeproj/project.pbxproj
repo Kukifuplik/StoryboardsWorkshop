@@ -13,6 +13,7 @@
 		72ACA3151D023867005120B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA3131D023867005120B0 /* Main.storyboard */; };
 		72ACA3171D023867005120B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA3161D023867005120B0 /* Assets.xcassets */; };
 		72ACA31A1D023867005120B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA3181D023867005120B0 /* LaunchScreen.storyboard */; };
+		72ACA33B1D02C4CB005120B0 /* ChangeRootSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACA33A1D02C4CB005120B0 /* ChangeRootSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		72ACA3161D023867005120B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72ACA3191D023867005120B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72ACA31B1D023867005120B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ACA33A1D02C4CB005120B0 /* ChangeRootSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeRootSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 		72ACA30C1D023867005120B0 /* SimpleChat */ = {
 			isa = PBXGroup;
 			children = (
+				72ACA33C1D02C50E005120B0 /* Main */,
+				72ACA3391D02C4BD005120B0 /* OtherStuff */,
 				72ACA30D1D023867005120B0 /* AppDelegate.swift */,
 				72ACA30F1D023867005120B0 /* MasterViewController.swift */,
 				72ACA3111D023867005120B0 /* DetailViewController.swift */,
@@ -65,6 +69,21 @@
 				72ACA31B1D023867005120B0 /* Info.plist */,
 			);
 			path = SimpleChat;
+			sourceTree = "<group>";
+		};
+		72ACA3391D02C4BD005120B0 /* OtherStuff */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA33A1D02C4CB005120B0 /* ChangeRootSegue.swift */,
+			);
+			name = OtherStuff;
+			sourceTree = "<group>";
+		};
+		72ACA33C1D02C50E005120B0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 				72ACA3121D023867005120B0 /* DetailViewController.swift in Sources */,
 				72ACA3101D023867005120B0 /* MasterViewController.swift in Sources */,
 				72ACA30E1D023867005120B0 /* AppDelegate.swift in Sources */,
+				72ACA33B1D02C4CB005120B0 /* ChangeRootSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +314,7 @@
 				72ACA3201D023867005120B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
