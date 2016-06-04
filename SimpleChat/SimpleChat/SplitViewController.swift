@@ -9,5 +9,7 @@
 import UIKit
 
 class SplitViewController: UISplitViewController {
-
+    @IBAction func unwindToVC(segue:UIStoryboardSegue) {
+        
+    }
 }

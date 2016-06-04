@@ -29,4 +29,8 @@ class LoginViewController: UIViewController {
     @IBAction func loginWithFacebookAction(sender: UIButton) {
         
     }
+    
+    @IBAction func unwindToVC(segue:UIStoryboardSegue) {
+        
+    }
 }
