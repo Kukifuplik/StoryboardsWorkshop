@@ -33,7 +33,7 @@
         <!--Login-->
         <scene sceneID="ln2-Xc-b2c">
             <objects>
-                <viewController modalPresentationStyle="formSheet" id="UGQ-9E-Qcy" customClass="JBMLoginViewController" customModule="SimpleChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="formSheet" id="UGQ-9E-Qcy" customClass="LoginViewController" customModule="SimpleChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VhE-88-Vxq"/>
                         <viewControllerLayoutGuide type="bottom" id="dKl-Dx-cBz"/>
@@ -128,7 +128,7 @@
         <!--Register View Controller-->
         <scene sceneID="XVI-bT-tQe">
             <objects>
-                <viewController definesPresentationContext="YES" id="xou-8d-Ixo" customClass="JBMRegisterViewController" customModule="SimpleChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController definesPresentationContext="YES" id="xou-8d-Ixo" customClass="RegisterViewController" customModule="SimpleChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="doI-wN-qej"/>
                         <viewControllerLayoutGuide type="bottom" id="kqz-MK-etM"/>
