@@ -13,6 +13,9 @@
 		72ACA3151D023867005120B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA3131D023867005120B0 /* Main.storyboard */; };
 		72ACA3171D023867005120B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA3161D023867005120B0 /* Assets.xcassets */; };
 		72ACA31A1D023867005120B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA3181D023867005120B0 /* LaunchScreen.storyboard */; };
+		72ACA3271D02398B005120B0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA3241D02398B005120B0 /* Login.storyboard */; };
+		72ACA3281D02398B005120B0 /* JBMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACA3251D02398B005120B0 /* JBMLoginViewController.swift */; };
+		72ACA3291D02398B005120B0 /* JBMRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACA3261D02398B005120B0 /* JBMRegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		72ACA3161D023867005120B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72ACA3191D023867005120B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72ACA31B1D023867005120B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ACA3241D02398B005120B0 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		72ACA3251D02398B005120B0 /* JBMLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBMLoginViewController.swift; sourceTree = "<group>"; };
+		72ACA3261D02398B005120B0 /* JBMRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBMRegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		72ACA30C1D023867005120B0 /* SimpleChat */ = {
 			isa = PBXGroup;
 			children = (
+				72ACA3231D02391D005120B0 /* Main */,
+				72ACA3221D023904005120B0 /* Login */,
 				72ACA30D1D023867005120B0 /* AppDelegate.swift */,
-				72ACA30F1D023867005120B0 /* MasterViewController.swift */,
-				72ACA3111D023867005120B0 /* DetailViewController.swift */,
-				72ACA3131D023867005120B0 /* Main.storyboard */,
 				72ACA3161D023867005120B0 /* Assets.xcassets */,
 				72ACA3181D023867005120B0 /* LaunchScreen.storyboard */,
 				72ACA31B1D023867005120B0 /* Info.plist */,
 			);
 			path = SimpleChat;
+			sourceTree = "<group>";
+		};
+		72ACA3221D023904005120B0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA3241D02398B005120B0 /* Login.storyboard */,
+				72ACA3251D02398B005120B0 /* JBMLoginViewController.swift */,
+				72ACA3261D02398B005120B0 /* JBMRegisterViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		72ACA3231D02391D005120B0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA3131D023867005120B0 /* Main.storyboard */,
+				72ACA30F1D023867005120B0 /* MasterViewController.swift */,
+				72ACA3111D023867005120B0 /* DetailViewController.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72ACA3271D02398B005120B0 /* Login.storyboard in Resources */,
 				72ACA31A1D023867005120B0 /* LaunchScreen.storyboard in Resources */,
 				72ACA3171D023867005120B0 /* Assets.xcassets in Resources */,
 				72ACA3151D023867005120B0 /* Main.storyboard in Resources */,
@@ -138,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72ACA3281D02398B005120B0 /* JBMLoginViewController.swift in Sources */,
 				72ACA3121D023867005120B0 /* DetailViewController.swift in Sources */,
 				72ACA3101D023867005120B0 /* MasterViewController.swift in Sources */,
 				72ACA30E1D023867005120B0 /* AppDelegate.swift in Sources */,
+				72ACA3291D02398B005120B0 /* JBMRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
