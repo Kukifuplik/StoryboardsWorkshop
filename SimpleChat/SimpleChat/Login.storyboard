@@ -22,6 +22,14 @@
             </objects>
             <point key="canvasLocation" x="-104" y="366"/>
         </scene>
+        <!--Main-->
+        <scene sceneID="VbV-wa-m9O">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="91M-27-nTw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4b0-kE-FNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="292.5" y="-33"/>
+        </scene>
         <!--Login-->
         <scene sceneID="ln2-Xc-b2c">
             <objects>
@@ -86,14 +94,13 @@
                     <navigationItem key="navigationItem" title="Login" id="akm-Gh-tGf">
                         <barButtonItem key="rightBarButtonItem" title="Login" id="Jfu-qj-pDb">
                             <connections>
-                                <segue destination="Aqn-ZY-EnK" kind="unwind" unwindAction="unwindFromLogin:" id="he0-Bf-Wvl"/>
+                                <segue destination="91M-27-nTw" kind="custom" customClass="ChangeRootSegue" customModule="SimpleChat" id="Lyc-ea-LPL"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfk-7N-RjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Aqn-ZY-EnK" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="313" y="366"/>
         </scene>
@@ -139,12 +146,12 @@
                                 <state key="normal" title="Register"/>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="55X-fM-vYg">
-                                <rect key="frame" x="16" y="120" width="288" height="30"/>
+                                <rect key="frame" x="16" y="164" width="288" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqq-NJ-xO7">
-                                <rect key="frame" x="16" y="158" width="288" height="30"/>
+                                <rect key="frame" x="16" y="202" width="288" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                             </textField>
